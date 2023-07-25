@@ -38,7 +38,7 @@ class Automovil extends Vehicles{
             "deportivo" => "El auto es de tipo deportivo",
             "camioneta" => "El auto es una camioneta"
 		];
-
+		//verifica si la clave existe en el array
         return isset($tipoMensajes[$this->type]) ? $tipoMensajes[$this->type] : "Tipo de automóvil desconocido";
     }
 
