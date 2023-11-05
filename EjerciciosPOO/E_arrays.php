@@ -95,10 +95,11 @@ $futbol = [
     ]
 ];
 
+
 // Creación de una instancia del buscador
 $buscador = new BuscadorDeArray($futbol);
 // Búsqueda de la ruta especificada
-$resultado = $buscador->buscar("jugadores->jugador_one->nombre");
+$resultado = $buscador->buscar("jugadores->sueldos->veteranos");
 print_r($resultado);
 
 
